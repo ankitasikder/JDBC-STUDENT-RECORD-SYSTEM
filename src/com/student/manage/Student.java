@@ -1,8 +1,8 @@
 package com.student.manage;
 /*
-CREATED BY BISWARUP BHATTACHARJEE
-EMAIL    : bbiswa471@gmail.com
-PHONE NO : 6290272740
+CREATED BY ANKITA SIKDER
+EMAIL    : ankita.sikder14@gmail.com
+PHONE NO : 8583939774
 */
 
 public class Student {
