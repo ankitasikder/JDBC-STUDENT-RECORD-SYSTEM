@@ -65,37 +65,25 @@ JDBC-STUDENT-RECORD-SYSTEM
 ## FUNCTIONAL REQUIREMENTS :point_down:
 
 Requirement analysis is a software engineering technique that is composed of the various tasks that determine the needs or conditions that are to be met for a new or altered product, taking into consideration the possible conflicting requirements of the various users.
-Functional requirements are those requirements that are used to illustrate the internal working nature of the system, the description of the system, and explanation of each subsystem. It consists of what task the system should perform the process involved, which data should the system holds and the interfaces with the user. The functional requirement identified are:
-a.	Adding Students:
+Functional requirements are those requirements that are used to illustrate the internal working nature of the system, the description of the system, and explanation of each subsystem. It consists of what task the system should perform the process involved, which data should the system holds and the interfaces with the user. The functional requirement identified are:<br>
+a.	Adding Students:<br>
 All the required students’ details containing their name, roll number, enrolment number, registration number, phone number, city are added when we choose option 1 in menu.
-b.	Displaying Whole Record:
+b.	Displaying Whole Record:<br>
 All the added records are stored in a database and are fetched and showed when we choose option 3 in menu.
-c.	Searching Particular Student Information:
+c.	Searching Particular Student Information:<br>
 We can choose option 4 when we want to search a particular student’s record. We have to give the enrolment number of that student to get that student’s details.
-d.	Deleting Records:
+d.	Deleting Records:<br>
 When we want to delete a student’s record we have to choose option 2 and give that student’s id no. Then that record will be deleted.
-e.	Exit Program:
+e.	Exit Program:<br>
 If we want to exit the program we have to choose option 5. Then the program will be closed.
 We have used Idea Intellij Software for java and MySql for sql.
-JDBC Connectivity:
+JDBC Connectivity:<br>
 We have created a project in Idea Intellij IDE. We have created 4 java files in src folder. These are Main.java, ConnectionProvider.java, ConnectionMethods.java, Student.java. 
 We have successfully established a connection with the relation database model with ‘ConnectionProvider.java’ and created a new database called “students_record” using mysql .With the specified root route and in the specified location (here localhost ) with particular username and password we have established a smooth connection with our java project. Handling records and searching for them becomes easier which such database management system.
  We used a table “students” in our database and created an array “enrolls[]” in order to check if multiple records of same enrolment number  of student are being entered the entry is being declined showing that the above enrolment number has been entered previously. 
 We created an array “rgnos[]” in order to check if multiple records of same registration number of student are being entered the entry is being declined showing that the above registration number has been entered previously.
 Such error handling, easy searching and safer security of storing data is only being established with the help of this Java Database Connectivity.
 A JAR is a package file format was included in order to provide the connectivity of our database , typically used to aggregate many Java class files and associated metadata and resources into one file for distribution. JAR files are archive files that include a Java-specific manifest file. They are built on the ZIP format and typically have a .jar file extension.
-
-It describes aspects of the system that are concerned with how the system provides the functional requirements. They are:
-a.	Security:
-The subsystem should provide a high level of security and integrity of the data held by the system, only authorized personnel of the system can gain access to the system’s secured page on the system.
-b.	Performance and Response Time:
-The system should have high performance rate when executing user’s input and should be able to provide the response within a short time span usually seconds for highly complicated task and 20 to 25 seconds for less complicated task.
-c.	Error handling:
-Error should be considerably minimized and an appropriate error message that guides the user to recover from an error should be provided. Validation of user’s input is highly essential. Also the standard time taken to recover from an error should be 15 to 20 seconds.
-d.	Availability: 
-This system should always be available for access at 24 hours, 7 days a week. Also in the occurrence of any major system malfunctioning, the system should be available in 1 to 2 working days, so that the business process is not severely affected.
-e.	Ease of use:
-Considered the level of knowledge possessed by the user of this system, a simple but quality user interface should be developed to make it easy to understand and required less training. 
 
 ## Screenshots of this part :point_down: 
 
