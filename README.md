@@ -1,8 +1,6 @@
-***This 'Student Record System' using JDBC is created by Ankita Sikder and Biswarup Bhattacharjee, students of BTECH, in University of Engineering and Management, Kolkata.***
+***This 'Student Record System' using JDBC is created by Ankita Sikder and other group members, students of BTECH, in University of Engineering and Management, Kolkata.***
 
 **Email Id: ankita.sikder14@gmail.com.** 
-
-**Contact No: 8583939774.** 
 
 <p align="left">
 <a href="https://facebook.com/ankita.sikder.104" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="biswa2210" height="30" width="40" /></a>
